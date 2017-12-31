@@ -1,0 +1,376 @@
+.container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.h1, h1 {
+    font-size: 36px;
+    text-align: center;
+
+
+    color: #232311;
+    font-weight: bold;
+
+}
+body {
+    line-height:1.5em;
+    font-family:Comic Sans MS;
+    font-size:14px;
+    background:url(../img/vrhpozadina2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    margin:0px;
+    padding:0px;
+}
+.h2,h2{
+
+    text-align: center;
+    font-size: 36px;
+    color: #232311;
+    font-weight: bold;
+
+}
+.h3, h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #232311;
+}
+
+
+.navbar-default{
+    background-color: rgb(24, 210, 184);
+
+    border-color: #2fab00;
+    color: black;
+
+
+
+
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(0, 0, 0);
+
+}
+.panel-default{
+
+    border-color:#2fab00;
+}
+.panel-body {
+
+    background-color: rgb(24, 210, 184);
+
+
+    padding: 0px;
+}
+.panel-body .list-inline li:after {
+    content: "|";
+    padding: 0 25px 0 40px;
+
+
+}
+
+
+.list-inline .dropdown  li:after {
+    content: "";
+    padding: 0 25px 0 40px;
+
+}
+.list-inline .dropup  li:after {
+    content: "";
+    padding: 0 25px 0 40px;
+
+}
+.nav-justified{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 14px;
+
+
+
+}
+.nav-justified li a:hover{
+
+    background-color:transparent;
+   border: none;
+}
+
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+    border: 1px solid #1c5013;
+    background-color: #acff00;
+    border-radius: 14px;
+    color: #232311;
+    font-style: oblique;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    border: 1px solid #1c5013;
+    background-color: #acff00;
+    border-radius: 14px;
+    color: #232311;
+    font-style: oblique;
+    font-weight: bold;
+
+
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #caff5b;
+    white-space: nowrap;
+
+}
+.nav-tabs.nav-justified>li>a{
+
+    border-bottom: none;
+    font-size: 133%;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 46px;
+    padding: 6px 12px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.42857143;
+    color: black;
+    background-color: rgba(172, 255, 0, 0.64);
+    background-image: none;
+    border: 1px solid #2fab00;
+    border-radius: 38px;
+}
+
+a.list-group-item, button.list-group-item {
+    color: #000000;
+    text-align: center;
+    background-color: rgba(172, 255, 0, 0.81);
+    margin-bottom: 10px;
+    border: 1px solid #2fab00;
+    font-size: 18px;
+
+
+}
+p.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: rgba(172, 255, 0, 0.81);
+
+    border: 1px solid #2fab00;
+    color: #232311;
+    font-size: 18px;
+
+
+}
+p.info{
+    display: block;
+    padding: 10px 15px;
+
+    background-color: rgba(172, 255, 0, 0.64);
+    border: 1px solid #2fab00;
+    text-align: center;
+
+
+
+}
+.btn-default {
+    color: #000;
+    background-color: #95af45;
+    border-color: #d1e874;
+}
+
+ul, menu, dir {
+    display: block;
+
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+
+}
+
+.td_UspravnaLinija {
+    background-color: black;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.logogore img {
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    margin: -6px;
+    margin-top: 31px;
+}
+.logodole{
+    text-align: center;
+}
+.logodole a img{
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    margin: -3px;
+    margin-top: 31px;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: rgba(172, 255, 0, 0.64);
+    border: 1px solid #2fab00;
+    border-radius: 10px;
+
+    transition: border .2s ease-in-out;
+    text-align: center;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -6px;
+    margin-left: 468px;
+}
+.text-justify {
+    text-align: justify;
+
+    font-size: 21px;
+}
+.col-md-6 p {
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+}
+.col-md-6{
+    width: 50%;
+    text-align: center;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: black;
+}
+a:active {
+    color: red;
+}
+.btn-info {
+
+    color: #fff;
+    background-color: #0d4602;
+    border-color: #2fab00;
+
+}
+.nav-justified a:visited {
+    color: #caff5b;
+}
+.nav-justified a {
+    color: #caff5b;
+}
+
+.dropdown-menu{
+
+    background-color: rgb(24, 210, 184);
+    border-color:#2fab00;
+    font-weight: bold;
+
+}
+.dropdown-menu a:visited{
+    color: #caff5b;
+    font-weight: bold;
+}
+.dropdown-menu>.active a:visited{
+    color: #232311;
+    font-weight: bold;
+}
+
+
+hr{
+    border-top: 2px solid #18d2b8;
+}
+.panel-body hr {
+    border-top: 1px solid #ffffff;
+}
+
+a.pull-right{
+
+    color: #0d6cd8;
+    font-size: 24px;
+}
+.carousel-inner>.item>img {
+    line-height: 1;
+    width: 100%;
+    height: 100%;
+}
+.slajder{
+
+    position: relative;
+    max-width: 670px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(172, 255, 0, 0.64);
+    border: 1px solid #2fab00;
+}
+
+.col-md-10 {
+    width: 120%;
+}
+.fb-like {
+
+    margin-bottom: 5px;
+
+}
+.nav-justified>.dropdown a:focus{
+    background-color: transparent;
+    border-color: transparent;
+}
+.nav-justified>.dropup a:focus{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.panel-body p{
+    color: #232311;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color:transparent;
+    border-color: transparent;
+
+}
+.katalog a{
+    color: #00325d;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+}
+#dis{
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    body{
+    background:url(../img/mobpozadina2.jpg) no-repeat center  fixed;
+        background-size: cover;
+    }
+    .list-inline li:after {
+        content: " ";
+       float: left;
+
+    }
+    .col-md-6{
+    width: 100%;
+    text-align: center;
+}
+}
